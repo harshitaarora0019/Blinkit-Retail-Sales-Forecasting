@@ -159,19 +159,7 @@ Streamlit Dashboard
 
 ---
 
-## 📂 Project Structure
 
-```text
-Blinkit-Retail-Sales-Forecasting/
-│
-├── main.py
-├── Blinkit_Forecasting.ipynb
-├── orders_forecasting.csv
-├── requirements.txt
-├── README.md
-│
-└── forecast_results.csv
-```
 
 ---
 
@@ -236,6 +224,31 @@ streamlit run main.py
 ```
 
 ---
+
+<h2>📸 Dashboard Screenshots</h2>
+
+<h3>🏠 Main Dashboard</h3>
+<img src="Screenshot/Blinkit Retail Sales Forecasting Dashboard.png" width="100%">
+
+<br><br>
+
+<h3>📊 Key Business Metrics</h3>
+<img src="Screenshot/Key Business Metrics.png" width="100%">
+
+<br><br>
+
+<h3>📈 Revenue Forecast</h3>
+<img src="Screenshot/Revenue Forecast.png" width="100%">
+
+<br><br>
+
+<h3>🤖 AI Business Insights</h3>
+<img src="Screenshot/AI Business Insights.png" width="100%">
+
+<br><br>
+
+<h3>📅 Next 30 Days Revenue Forecast</h3>
+<img src="Screenshot/Next 30 Days Revenue Forecast.png" width="100%">
 
 ## 📊 Future Enhancements
 

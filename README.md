@@ -263,30 +263,9 @@ The project uses MySQL and SQL to analyze retail business data across customers,
 
 * Analyzed delivery efficiency and order fulfillment performance.
 
----
-
-## 📂 Project Structure
 
 
-Blinkit-Retail-Sales-Forecasting/
-│
-├── sql/
-│   └── blinkit_analysis.sql
-│
-├── Screenshot/
-│   ├── Blinkit Retail Sales Forecasting Dashboard.png
-│   ├── Key Business Metrics.png
-│   ├── Revenue Forecast.png
-│   ├── AI Business Insights.png
-│   └── Next 30 Days Revenue Forecast.png
-│
-├── notebooks/
-│   └── Blinkit_Forecasting.ipynb
-│
-├── main.py
-├── orders_forecasting.csv
-├── requirements.txt
-└── README.md
+<hr> <h2>📂 Project Structure</h2> <pre> Blinkit-Retail-Sales-Forecasting/ │ ├── sql/ │ └── blinkit_analysis.sql │ ├── Screenshot/ │ ├── Blinkit Retail Sales Forecasting Dashboard.png │ ├── Key Business Metrics.png │ ├── Revenue Forecast.png │ ├── AI Business Insights.png │ └── Next 30 Days Revenue Forecast.png │ ├── notebooks/ │ └── Blinkit_Forecasting.ipynb │ ├── main.py ├── orders_forecasting.csv ├── requirements.txt └── README.md </pre> <hr>
 
 ⚙️ Installation
 
@@ -298,9 +277,6 @@ cd Blinkit-Retail-Sales-Forecasting
 pip install -r requirements.txt
 
 streamlit run main.py
-
-
-
 
 ## 📸 Dashboard Screenshots
 

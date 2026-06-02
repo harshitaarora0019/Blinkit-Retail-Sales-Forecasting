@@ -1,4 +1,5 @@
-# 🛒 Blinkit Retail Analytics & Sales Forecasting Platform
+```html
+<h1 align="center">🛒 Blinkit Retail Analytics & Sales Forecasting Platform</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python">
@@ -9,106 +10,116 @@
   <img src="https://img.shields.io/badge/Prophet-Time%20Series-brightgreen?style=for-the-badge">
 </p>
 
----
+<hr>
 
-## 🌐 Live Demo
+<h2>🌐 Live Demo</h2>
 
-**Streamlit App:**
+<p>
+<b>Streamlit App:</b><br>
 https://blinkit-retail-sales-forecasting-et3mnehh3up4nghxogyxgy.streamlit.app/
+</p>
 
----
+<hr>
 
-## 📌 Project Overview
+<h2>📌 Project Overview</h2>
 
+<p>
 Blinkit Retail Analytics & Sales Forecasting Platform is an end-to-end retail analytics solution that combines SQL-based business intelligence with machine learning forecasting.
+</p>
 
-The project was developed using Excel, MySQL, SQL, Python, Pandas, Facebook Prophet, Matplotlib, and Streamlit.
+<p>
+The project was developed using Excel, MySQL, SQL, Python, Pandas, Facebook Prophet, Matplotlib, Streamlit, and Power BI.
+</p>
 
-The system analyzes customer behavior, product performance, inventory health, delivery efficiency, and marketing effectiveness while also forecasting future sales revenue for business planning and decision-making.
+<p>
+The system analyzes customer behavior, product performance, inventory health, delivery efficiency, and marketing effectiveness while forecasting future sales revenue for business planning and decision-making.
+</p>
 
-### Key Objectives
+<h3>🎯 Key Objectives</h3>
 
-✅ Retail Business Analytics
+<ul>
+<li>✅ Retail Business Analytics</li>
+<li>✅ Sales Performance Analysis</li>
+<li>✅ Customer Behavior Analysis</li>
+<li>✅ Inventory Monitoring</li>
+<li>✅ Marketing Campaign Evaluation</li>
+<li>✅ Revenue Forecasting</li>
+<li>✅ KPI Monitoring Dashboard</li>
+<li>✅ Data-Driven Decision Making</li>
+</ul>
 
-✅ Sales Performance Analysis
+<hr>
 
-✅ Customer Behavior Analysis
+<h2>🎯 Problem Statement</h2>
 
-✅ Inventory Monitoring
+<p>
+Retail businesses generate large amounts of transactional data but often struggle to convert it into meaningful business insights.
+</p>
 
-✅ Marketing Campaign Evaluation
+<p>
+Without proper analytics and forecasting:
+</p>
 
-✅ Revenue Forecasting
+<ul>
+<li>Inventory planning becomes difficult</li>
+<li>Revenue predictions become inaccurate</li>
+<li>Marketing effectiveness remains unclear</li>
+<li>Customer behavior trends are hard to identify</li>
+<li>Business decisions become reactive instead of proactive</li>
+</ul>
 
-✅ KPI Monitoring Dashboard
+<p>
+This project solves these challenges through SQL-based analytics and machine learning forecasting.
+</p>
 
-✅ Data-Driven Decision Making
+<hr>
 
----
+<h2>🚀 Features</h2>
 
-## 🎯 Problem Statement
+<h3>🗄️ Retail Analytics</h3>
 
-Retail businesses generate large volumes of transactional data but often struggle to transform it into actionable business insights.
+<ul>
+<li>Revenue Analysis</li>
+<li>Customer Analysis</li>
+<li>Product Performance Analysis</li>
+<li>Inventory Analysis</li>
+<li>Delivery Performance Monitoring</li>
+<li>Marketing Campaign Analysis</li>
+</ul>
 
-Without analytics and forecasting:
+<h3>📊 KPI Dashboard</h3>
 
-* Inventory planning becomes difficult
-* Revenue predictions become inaccurate
-* Marketing effectiveness remains unclear
-* Customer trends are difficult to identify
-* Business decisions become reactive rather than proactive
+<ul>
+<li>Average Daily Revenue</li>
+<li>Maximum Revenue</li>
+<li>Minimum Revenue</li>
+<li>Total Forecast Revenue</li>
+</ul>
 
-This project addresses these challenges through SQL-based analytics and machine learning forecasting.
+<h3>📈 Forecasting</h3>
 
----
+<ul>
+<li>30-Day Revenue Forecast</li>
+<li>Trend Analysis</li>
+<li>Weekly Seasonality</li>
+<li>Yearly Seasonality</li>
+<li>Holiday Impact Analysis</li>
+</ul>
 
-## 🚀 Features
+<h3>🤖 AI Business Insights</h3>
 
-### 🗄️ Retail Analytics
+<ul>
+<li>Highest Revenue Day</li>
+<li>Average Revenue Analysis</li>
+<li>Revenue Trends</li>
+<li>Future Revenue Expectations</li>
+</ul>
 
-* Revenue Analysis
-* Customer Analysis
-* Product Performance Analysis
-* Inventory Analysis
-* Delivery Performance Monitoring
-* Marketing Campaign Analysis
+<hr>
 
-### 📊 Business KPI Dashboard
+<h2>🛠️ Tech Stack</h2>
 
-* Average Daily Revenue
-* Maximum Revenue
-* Minimum Revenue
-* Total Forecast Revenue
-
-### 📈 Revenue Forecasting
-
-Predicts future sales revenue for the next 30 days using Facebook Prophet.
-
-### 📉 Trend Analysis
-
-Visualizes overall business growth trends.
-
-### 📅 Weekly Seasonality Analysis
-
-Identifies the most profitable weekdays.
-
-### 🗓️ Yearly Seasonality Analysis
-
-Analyzes annual revenue patterns.
-
-### 🤖 AI Business Insights
-
-Automatically generates business insights based on forecast results.
-
-### 📥 Export Forecast
-
-Download forecast results as CSV.
-
----
-
-## 🛠️ Tech Stack
-
-<table>
+<table border="1" cellpadding="8" cellspacing="0">
 <tr>
 <th>Category</th>
 <th>Technology</th>
@@ -161,11 +172,11 @@ Download forecast results as CSV.
 
 </table>
 
----
+<hr>
 
-## 🧠 Project Workflow
+<h2>🧠 Project Workflow</h2>
 
-```text
+<pre>
 Raw Retail Excel Data
         │
         ▼
@@ -191,85 +202,117 @@ Facebook Prophet
         │
         ▼
 Streamlit Dashboard
-```
+</pre>
 
----
+<hr>
 
-## 🗄️ SQL Business Analysis
+<h2>🗄️ SQL Business Analysis</h2>
 
+<p>
 The project uses MySQL and SQL to analyze retail business data across customers, orders, products, inventory, delivery performance, customer feedback, and marketing campaigns.
+</p>
 
-### SQL Analysis Performed
+<h3>SQL Analysis Performed</h3>
 
-✅ Total Revenue Analysis
+<ul>
+<li>✅ Total Revenue Analysis</li>
+<li>✅ Average Order Value Analysis</li>
+<li>✅ Top Selling Products</li>
+<li>✅ Category-wise Revenue Analysis</li>
+<li>✅ Customer Spending Analysis</li>
+<li>✅ Payment Method Analysis</li>
+<li>✅ Delivery Performance Analysis</li>
+<li>✅ Inventory Health Monitoring</li>
+<li>✅ Marketing Campaign Performance Analysis</li>
+<li>✅ Forecast Dataset Generation</li>
+</ul>
 
-✅ Average Order Value Analysis
+<h3>SQL Concepts Used</h3>
 
-✅ Top Selling Products
+<ul>
+<li>INNER JOIN</li>
+<li>GROUP BY</li>
+<li>ORDER BY</li>
+<li>Aggregate Functions</li>
+<li>Revenue Calculations</li>
+<li>KPI Analysis</li>
+<li>Business Intelligence Queries</li>
+</ul>
 
-✅ Category-wise Revenue Analysis
+<hr>
 
-✅ Customer Spending Analysis
+<h2>🧠 Key Business Insights</h2>
 
-✅ Payment Method Analysis
+<table border="1" cellpadding="8" cellspacing="0">
 
-✅ Delivery Performance Analysis
+<tr>
+<th>Analysis Area</th>
+<th>Insights</th>
+</tr>
 
-✅ Inventory Health Monitoring
+<tr>
+<td>Total Revenue</td>
+<td>₹6.39 Lakh+</td>
+</tr>
 
-✅ Marketing Campaign Performance
+<tr>
+<td>Average Order Value</td>
+<td>₹1,676+</td>
+</tr>
 
-✅ Forecast Dataset Generation
+<tr>
+<td>Top Selling Product</td>
+<td>Toilet Cleaner</td>
+</tr>
 
-### SQL Concepts Used
+<tr>
+<td>Highest Revenue Category</td>
+<td>Pharmacy (₹23,555)</td>
+</tr>
 
-* INNER JOIN
-* GROUP BY
-* ORDER BY
-* Aggregate Functions
-* Revenue Calculations
-* KPI Analysis
-* Business Intelligence Queries
+<tr>
+<td>Second Highest Category</td>
+<td>Dairy & Breakfast (₹21,023)</td>
+</tr>
 
----
+<tr>
+<td>Third Highest Category</td>
+<td>Fruits & Vegetables (₹20,747)</td>
+</tr>
 
-## 🧠 Key Business Insights
+</table>
 
-### Revenue Performance
+<hr>
 
-* Total Revenue: ₹6.39 Lakh+
-* Average Order Value: ₹1,676+
+<h2>📂 Project Structure</h2>
 
-### Product Insights
+<pre>
+Blinkit-Retail-Sales-Forecasting/
+│
+├── sql/
+│   └── blinkit_analysis.sql
+│
+├── Screenshot/
+│   ├── Blinkit Retail Sales Forecasting Dashboard.png
+│   ├── Key Business Metrics.png
+│   ├── Revenue Forecast.png
+│   ├── AI Business Insights.png
+│   └── Next 30 Days Revenue Forecast.png
+│
+├── notebooks/
+│   └── Blinkit_Forecasting.ipynb
+│
+├── main.py
+├── orders_forecasting.csv
+├── requirements.txt
+└── README.md
+</pre>
 
-* Toilet Cleaner emerged as one of the highest-selling products by quantity.
+<hr>
 
-### Category Insights
+<h2>⚙️ Installation</h2>
 
-1. Pharmacy – ₹23,555
-2. Dairy & Breakfast – ₹21,023
-3. Fruits & Vegetables – ₹20,747
-
-### Inventory Insights
-
-* Evaluated stock received versus damaged stock.
-* Monitored inventory health metrics.
-
-### Marketing Insights
-
-* Assessed campaign performance using revenue and ROAS metrics.
-
-### Delivery Insights
-
-* Analyzed delivery efficiency and order fulfillment performance.
-
-
-
-<hr> <h2>📂 Project Structure</h2> <pre> Blinkit-Retail-Sales-Forecasting/ │ ├── sql/ │ └── blinkit_analysis.sql │ ├── Screenshot/ │ ├── Blinkit Retail Sales Forecasting Dashboard.png │ ├── Key Business Metrics.png │ ├── Revenue Forecast.png │ ├── AI Business Insights.png │ └── Next 30 Days Revenue Forecast.png │ ├── notebooks/ │ └── Blinkit_Forecasting.ipynb │ ├── main.py ├── orders_forecasting.csv ├── requirements.txt └── README.md </pre> <hr>
-
-⚙️ Installation
-
-bash
+<pre>
 git clone https://github.com/harshitaarora0019/Blinkit-Retail-Sales-Forecasting.git
 
 cd Blinkit-Retail-Sales-Forecasting
@@ -277,60 +320,70 @@ cd Blinkit-Retail-Sales-Forecasting
 pip install -r requirements.txt
 
 streamlit run main.py
+</pre>
 
-## 📸 Dashboard Screenshots
+<hr>
 
-### 🏠 Main Dashboard
+<h2>📸 Dashboard Screenshots</h2>
 
+<h3>🏠 Main Dashboard</h3>
 <img src="Screenshot/Blinkit Retail Sales Forecasting Dashboard.png" width="100%">
 
-### 📊 Key Business Metrics
+<br><br>
 
+<h3>📊 Key Business Metrics</h3>
 <img src="Screenshot/Key Business Metrics.png" width="100%">
 
-### 📈 Revenue Forecast
+<br><br>
 
+<h3>📈 Revenue Forecast</h3>
 <img src="Screenshot/Revenue Forecast.png" width="100%">
 
-### 🤖 AI Business Insights
+<br><br>
 
+<h3>🤖 AI Business Insights</h3>
 <img src="Screenshot/AI Business Insights.png" width="100%">
 
-### 📅 Next 30 Days Revenue Forecast
+<br><br>
 
+<h3>📅 Next 30 Days Revenue Forecast</h3>
 <img src="Screenshot/Next 30 Days Revenue Forecast.png" width="100%">
 
+<hr>
 
+<h2>📊 Future Enhancements</h2>
 
-## 📊 Future Enhancements
+<ul>
+<li>Product-wise Forecasting</li>
+<li>Category-wise Forecasting</li>
+<li>Real-Time Database Integration</li>
+<li>Interactive Plotly Dashboards</li>
+<li>Automated Business Reports</li>
+<li>AI Recommendation Engine</li>
+</ul>
 
-* Product-wise Forecasting
-* Category-wise Forecasting
-* Real-Time Database Integration
-* Interactive Plotly Dashboards
-* Automated Business Reports
-* AI Recommendation Engine
+<hr>
 
----
+<h2>👩‍💻 Developer</h2>
 
-## 👩‍💻 Developer
-
-**Harshita Arora**
-
-B.Tech Computer Science Engineering Student
-
-Data Science Enthusiast | SQL Analyst | Python Developer
-
+<p>
+<b>Harshita Arora</b><br>
+B.Tech Computer Science Engineering Student<br>
+Data Science Enthusiast | SQL Analyst | Python Developer<br>
 Passionate about Data Analytics, Machine Learning, Forecasting, Business Intelligence, and Dashboard Development.
+</p>
 
----
+<hr>
 
-## ⭐ Support
+<h2>⭐ Support</h2>
 
+<p>
 If you found this project useful, consider giving it a ⭐ on GitHub.
+</p>
 
-
+<hr>
 
 <p align="center">
 <b>Built with ❤️ by Harshita Arora</b>
 </p>
+```

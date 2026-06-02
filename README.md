@@ -170,10 +170,11 @@ Streamlit Dashboard
 
 ---
 
-## 📂 Project Structure
-
-```text
+📂 Project Structure
 Blinkit-Retail-Sales-Forecasting/
+│
+├── sql/
+│   └── blinkit_analysis.sql
 │
 ├── Screenshot/
 │   ├── Blinkit Retail Sales Forecasting Dashboard.png
@@ -189,22 +190,16 @@ Blinkit-Retail-Sales-Forecasting/
 ├── orders_forecasting.csv
 ├── requirements.txt
 └── README.md
-```
 
----
-
-## 📁 Folder Description
-
-| Folder/File            | Description                                                   |
-| ---------------------- | ------------------------------------------------------------- |
-| Screenshot/            | Contains dashboard screenshots and project outputs            |
-| notebooks/             | Jupyter Notebook containing analysis and forecasting workflow |
-| main.py                | Main Streamlit application                                    |
-| orders_forecasting.csv | Historical retail sales dataset                               |
-| requirements.txt       | Project dependencies                                          |
-| README.md              | Project documentation                                         |
-
----
+📁 Folder Description
+Folder/File	Description
+sql/	Contains SQL queries used for retail analytics, joins, KPI calculations, and forecasting dataset preparation
+Screenshot/	Dashboard screenshots and project outputs
+notebooks/	Jupyter Notebook used for forecasting model development and analysis
+main.py	Streamlit application source code
+orders_forecasting.csv	Forecasting dataset generated from SQL analysis
+requirements.txt	Project dependencies
+README.md	Project documentation
 
 ## 📈 Dashboard Modules
 

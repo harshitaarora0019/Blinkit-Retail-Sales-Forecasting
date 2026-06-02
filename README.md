@@ -9,40 +9,48 @@
 </p>
 
 ---
-Streamlit : https://blinkit-retail-sales-forecasting-et3mnehh3up4nghxogyxgy.streamlit.app/
+
+## 🌐 Live Demo
+
+**Streamlit App:**
+https://blinkit-retail-sales-forecasting-et3mnehh3up4nghxogyxgy.streamlit.app/
+
+---
 
 ## 📌 Project Overview
 
-Blinkit Retail Sales Forecasting is an AI-powered analytics dashboard that predicts future sales revenue using historical order data.
+Blinkit Retail Sales Forecasting is an AI-powered analytics dashboard that predicts future sales revenue using historical retail order data.
 
-The project combines SQL-based data extraction, data preprocessing with Pandas, time-series forecasting using Facebook Prophet, and interactive visualization through Streamlit.
+The project combines SQL-based data extraction, data preprocessing using Pandas, time-series forecasting using Facebook Prophet, and interactive business visualization through Streamlit.
 
-This dashboard helps businesses:
+The dashboard enables businesses to forecast future revenue, identify sales trends, analyze seasonal demand patterns, and make data-driven decisions.
+
+### Key Objectives
 
 ✅ Forecast future revenue
 
-✅ Analyze sales trends
+✅ Analyze business growth trends
 
-✅ Understand seasonality patterns
+✅ Identify seasonal sales patterns
 
-✅ Support data-driven business decisions
+✅ Generate AI-powered business insights
 
-✅ Monitor business performance through KPIs
+✅ Monitor key performance indicators (KPIs)
 
 ---
 
 ## 🎯 Problem Statement
 
-Retail businesses often struggle to estimate future demand and revenue accurately.
+Retail businesses often face challenges in accurately predicting future demand and revenue.
 
-Without forecasting:
+Without proper forecasting:
 
-* Inventory planning becomes difficult
-* Revenue expectations are unclear
-* Seasonal sales opportunities are missed
-* Business decisions become reactive rather than proactive
+* Inventory planning becomes inefficient
+* Revenue expectations remain uncertain
+* Seasonal opportunities may be missed
+* Strategic decisions become reactive instead of proactive
 
-This project solves the problem by predicting future sales using machine learning-based forecasting techniques.
+This project addresses these challenges by using Machine Learning-based forecasting techniques to predict future sales revenue.
 
 ---
 
@@ -51,25 +59,25 @@ This project solves the problem by predicting future sales using machine learnin
 ### 📊 Business KPI Dashboard
 
 * Average Daily Revenue
-* Maximum Expected Revenue
-* Minimum Expected Revenue
+* Maximum Revenue
+* Minimum Revenue
 * Total Forecast Revenue
 
 ### 📈 Revenue Forecasting
 
-Predicts sales for the next 30 days using Facebook Prophet.
+Predicts future revenue for the next 30 days using Facebook Prophet.
 
 ### 📉 Trend Analysis
 
-Visualizes overall business growth trends over time.
+Visualizes long-term business growth and revenue trends.
 
 ### 📅 Weekly Seasonality Analysis
 
-Identifies which days generate more revenue.
+Identifies the best-performing weekdays based on revenue.
 
 ### 🗓️ Yearly Seasonality Analysis
 
-Shows revenue patterns throughout the year.
+Analyzes revenue fluctuations throughout the year.
 
 ### 🤖 AI Business Insights
 
@@ -80,9 +88,9 @@ Automatically generates:
 * Revenue Trends
 * Future Revenue Expectations
 
-### 📥 Export Forecast
+### 📥 Export Forecast Results
 
-Download forecast results as CSV.
+Download forecast results as CSV files.
 
 ---
 
@@ -105,7 +113,7 @@ Download forecast results as CSV.
 </tr>
 
 <tr>
-<td>Dashboard</td>
+<td>Dashboard Framework</td>
 <td>Streamlit</td>
 </tr>
 
@@ -120,12 +128,12 @@ Download forecast results as CSV.
 </tr>
 
 <tr>
-<td>Visualization</td>
+<td>Data Visualization</td>
 <td>Matplotlib</td>
 </tr>
 
 <tr>
-<td>Dataset</td>
+<td>Dataset Format</td>
 <td>CSV</td>
 </tr>
 
@@ -148,7 +156,10 @@ CSV Dataset
 Data Cleaning (Pandas)
       │
       ▼
-Prophet Forecast Model
+Feature Engineering
+      │
+      ▼
+Facebook Prophet Model
       │
       ▼
 Revenue Prediction
@@ -159,7 +170,39 @@ Streamlit Dashboard
 
 ---
 
+## 📂 Project Structure
 
+```text
+Blinkit-Retail-Sales-Forecasting/
+│
+├── Screenshot/
+│   ├── Blinkit Retail Sales Forecasting Dashboard.png
+│   ├── Key Business Metrics.png
+│   ├── Revenue Forecast.png
+│   ├── AI Business Insights.png
+│   └── Next 30 Days Revenue Forecast.png
+│
+├── notebooks/
+│   └── Blinkit_Forecasting.ipynb
+│
+├── main.py
+├── orders_forecasting.csv
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📁 Folder Description
+
+| Folder/File            | Description                                                   |
+| ---------------------- | ------------------------------------------------------------- |
+| Screenshot/            | Contains dashboard screenshots and project outputs            |
+| notebooks/             | Jupyter Notebook containing analysis and forecasting workflow |
+| main.py                | Main Streamlit application                                    |
+| orders_forecasting.csv | Historical retail sales dataset                               |
+| requirements.txt       | Project dependencies                                          |
+| README.md              | Project documentation                                         |
 
 ---
 
@@ -167,23 +210,23 @@ Streamlit Dashboard
 
 ### Revenue Forecast
 
-Displays actual revenue and forecasted revenue with confidence intervals.
+Displays actual revenue and predicted revenue with confidence intervals.
 
-### Trend Analysis
+### Revenue Trend Analysis
 
-Shows long-term business growth patterns.
+Visualizes long-term revenue growth patterns.
 
-### Weekly Seasonality
+### Weekly Seasonality Analysis
 
-Identifies best-performing weekdays.
+Identifies the most profitable weekdays.
 
-### Yearly Seasonality
+### Yearly Seasonality Analysis
 
-Analyzes seasonal business fluctuations.
+Shows annual revenue patterns and seasonal demand.
 
-### Business Insights
+### AI Business Insights
 
-Generates actionable business summaries from forecast data.
+Generates actionable business insights from forecast results.
 
 ---
 
@@ -191,9 +234,10 @@ Generates actionable business summaries from forecast data.
 
 * Better inventory planning
 * Revenue estimation
-* Seasonal demand analysis
+* Seasonal demand forecasting
 * Strategic decision-making
-* Improved forecasting accuracy
+* Business growth monitoring
+* Improved operational efficiency
 
 ---
 
@@ -202,10 +246,10 @@ Generates actionable business summaries from forecast data.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Blinkit-Retail-Sales-Forecasting.git
+git clone https://github.com/harshitaarora0019/Blinkit-Retail-Sales-Forecasting.git
 ```
 
-### Move into Project Directory
+### Navigate to Project Directory
 
 ```bash
 cd Blinkit-Retail-Sales-Forecasting
@@ -217,7 +261,7 @@ cd Blinkit-Retail-Sales-Forecasting
 pip install -r requirements.txt
 ```
 
-### Run Application
+### Run Streamlit Application
 
 ```bash
 streamlit run main.py
@@ -225,39 +269,54 @@ streamlit run main.py
 
 ---
 
-<h2>📸 Dashboard Screenshots</h2>
+## 📸 Dashboard Screenshots
 
-<h3>🏠 Main Dashboard</h3>
+### 🏠 Main Dashboard
+
 <img src="Screenshot/Blinkit Retail Sales Forecasting Dashboard.png" width="100%">
 
 <br><br>
 
-<h3>📊 Key Business Metrics</h3>
+### 📊 Key Business Metrics
+
 <img src="Screenshot/Key Business Metrics.png" width="100%">
 
 <br><br>
 
-<h3>📈 Revenue Forecast</h3>
+### 📈 Revenue Forecast
+
 <img src="Screenshot/Revenue Forecast.png" width="100%">
 
 <br><br>
 
-<h3>🤖 AI Business Insights</h3>
+### 🤖 AI Business Insights
+
 <img src="Screenshot/AI Business Insights.png" width="100%">
 
 <br><br>
 
-<h3>📅 Next 30 Days Revenue Forecast</h3>
+### 📅 Next 30 Days Revenue Forecast
+
 <img src="Screenshot/Next 30 Days Revenue Forecast.png" width="100%">
+
+---
 
 ## 📊 Future Enhancements
 
-* Product-wise Forecasting
-* Category-wise Analysis
-* Real-time Data Integration
+* Product-wise Sales Forecasting
+* Category-wise Revenue Analysis
+* Real-Time Data Integration
 * AI Chat Assistant
-* Interactive Plotly Charts
+* Interactive Plotly Dashboards
 * Cloud Deployment
+* Automated Reporting System
+
+---
+
+## 👩‍💻 Developer
+
+**Harshita Arora**
+Passionate about Data Analytics, Machine Learning, Forecasting, Business Intelligence, and Dashboard Development.
 
 ---
 
@@ -265,4 +324,8 @@ streamlit run main.py
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
-Built with ❤️ by Harshita Arora
+---
+
+<p align="center">
+<b>Built with ❤️ by Harshita Arora</b>
+</p>

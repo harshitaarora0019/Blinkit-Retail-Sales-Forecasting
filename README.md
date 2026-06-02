@@ -1,4 +1,4 @@
-```html
+
 <h1 align="center">🛒 Blinkit Retail Analytics & Sales Forecasting Platform</h1>
 
 <p align="center">

@@ -289,10 +289,18 @@ The project uses MySQL and SQL to analyze retail business data across customers,
 <pre>
 Blinkit-Retail-Sales-Forecasting/
 │
+├── powerbi/
+│   └── Blinkit_Retail_Analytics.pbix
+│
 ├── sql/
 │   └── blinkit_analysis.sql
 │
 ├── Screenshot/
+│   ├── Blinkit Retail Analytics Dashboard.png
+│   ├── Customer Analytics Dashboard.png
+│   ├── Inventory Analytics Dashboard.png
+│   ├── Delivery Performance Dashboard.png
+│   ├── Order Analytics Dashboard.png
 │   ├── Blinkit Retail Sales Forecasting Dashboard.png
 │   ├── Key Business Metrics.png
 │   ├── Revenue Forecast.png
@@ -324,30 +332,43 @@ streamlit run main.py
 
 <hr>
 
-<h2>📸 Dashboard Screenshots</h2>
+<hr>
 
-<h3>🏠 Main Dashboard</h3>
-<img src="Screenshot/Blinkit Retail Sales Forecasting Dashboard.png" width="100%">
+<h2>📊 Power BI Dashboard Screenshots</h2>
 
-<br><br>
+<p>
+Interactive business intelligence dashboards developed using Power BI for retail analytics, customer insights, inventory monitoring, delivery performance tracking, and order analysis.
+</p>
 
-<h3>📊 Key Business Metrics</h3>
-<img src="Screenshot/Key Business Metrics.png" width="100%">
+<hr>
 
-<br><br>
+<h3>🛒 Retail Analytics Dashboard</h3>
 
-<h3>📈 Revenue Forecast</h3>
-<img src="Screenshot/Revenue Forecast.png" width="100%">
-
-<br><br>
-
-<h3>🤖 AI Business Insights</h3>
-<img src="Screenshot/AI Business Insights.png" width="100%">
+<img src="Screenshot/Blinkit Retail Analytics Dashboard.png" width="100%">
 
 <br><br>
 
-<h3>📅 Next 30 Days Revenue Forecast</h3>
-<img src="Screenshot/Next 30 Days Revenue Forecast.png" width="100%">
+<h3>👥 Customer Analytics Dashboard</h3>
+
+<img src="Screenshot/Customer Analytics Dashboard.png" width="100%">
+
+<br><br>
+
+<h3>📦 Inventory Analytics Dashboard</h3>
+
+<img src="Screenshot/Inventory Analytics Dashboard.png" width="100%">
+
+<br><br>
+
+<h3>🚚 Delivery Performance Dashboard</h3>
+
+<img src="Screenshot/Delivery Performance Dashboard.png" width="100%">
+
+<br><br>
+
+<h3>📋 Order Analytics Dashboard</h3>
+
+<img src="Screenshot/Order Analytics Dashboard.png" width="100%">
 
 <hr>
 

@@ -344,32 +344,27 @@ Interactive business intelligence dashboards developed using Power BI for retail
 <hr>
 
 <h3>🛒 Retail Analytics Dashboard</h3>
-
-<img src="Screenshot/Blinkit Retail Analytics Dashboard.png" width="100%">
+<img src="./Screenshot/Blinkit%20Retail%20Analytics%20Dashboard.png" width="100%">
 
 <br><br>
 
 <h3>👥 Customer Analytics Dashboard</h3>
-
-<img src="Screenshot/Customer Analytics Dashboard.png" width="100%">
+<img src="./Screenshot/Customer%20Analytics%20Dashboard.png" width="100%">
 
 <br><br>
 
 <h3>📦 Inventory Analytics Dashboard</h3>
-
-<img src="Screenshot/Inventory Analytics Dashboard.png" width="100%">
+<img src="./Screenshot/Inventory%20Analytics%20Dashboard.png" width="100%">
 
 <br><br>
 
 <h3>🚚 Delivery Performance Dashboard</h3>
-
-<img src="Screenshot/Delivery Performance Dashboard.png" width="100%">
+<img src="./Screenshot/Delivery%20Performance%20Dashboard.png" width="100%">
 
 <br><br>
 
 <h3>📋 Order Analytics Dashboard</h3>
-
-<img src="Screenshot/Order Analytics Dashboard.png" width="100%">
+<img src="./Screenshot/Order%20Analytics%20Dashboard.png" width="100%">
 
 <hr>
 
